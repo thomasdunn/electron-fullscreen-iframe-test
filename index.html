@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Electron Full-screen iframe</title>
+  <meta http-equiv="Content-Security-Policy" content="frame-src https://github-electron-test.s3.amazonaws.com; style-src 'unsafe-inline'">
+  <style>
+    body {
+      margin: 0;
+    }
+    iframe {
+      border: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://github-electron-test.s3.amazonaws.com/iframe-content.html"></iframe>
+</body>
+</html>
